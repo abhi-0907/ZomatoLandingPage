@@ -146,14 +146,15 @@
 .we__offer_card{
     border-radius: 10px;
     /* background-color: aqua; */
+    width: 350px;
     overflow: hidden;
     border: 1px solid #e0e0e0;
-    transition: all 1s ease;
+    transition: all 0.8s ease-out;
     margin-right: 12px;
 }
 
 .we__offer_card:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .we__offer_card img{
